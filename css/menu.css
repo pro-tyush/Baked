@@ -1,0 +1,38 @@
+
+body{margin-top: 10px}
+.square {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+  height: 153px;
+  width:*;
+  
+}
+table {
+  font-family: "century gothic";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.button {
+  background-color: #fc8019; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Century Gothic";
+  margin-top: 10px;
+}
+

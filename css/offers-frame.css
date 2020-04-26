@@ -1,0 +1,10 @@
+  .mySlides {display:none;}
+  
+  div{margin-left:auto;
+  	  margin-right:auto}
+  
+  img{width:100%;
+  	  height: 260px}
+  
+  img:hover{filter: saturate(150%);
+           filter: brightness(120%);}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/offers-frame.css">
+
+</head>
+
+<body background="res/offers/bg.png">
+
+<div style="max-width:500px" >
+  <a href="dominos.html" target="menuframe"><img class="mySlides" src="res/offers/domi.jfif"></a>
+  <a href="mcd.html" target="menuframe"><img class="mySlides" src="res/offers/mcd.jfif"></a>
+  <a href="bk.html" target="menuframe"><img class="mySlides" src="res/offers/bk.jpg"></a>
+  <a href="kfc.html" target="menuframe"><img class="mySlides" src="res/offers/kfc.jfif"></a>
+  <a href="starbucks.html" target="menuframe"> <img class="mySlides" src="res/offers/sb.jfif"></a>
+</div>
+
+
+<script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every x seconds
+  }
+</script>
+
+</body>
+</html>

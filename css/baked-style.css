@@ -1,0 +1,52 @@
+body{margin: 0px;}
+
+.logo{width: 100px;
+      height: 100px;
+	  float: left;}
+
+
+iframe{border: 0px;
+	   margin: 0px;
+	   display: block;}
+		       
+
+
+nav{float: center;
+	background-color:  #fc8019;
+	height: 100px;
+	overflow: none;}
+nav ul{margin: 0;
+       padding: 0;
+       list-style: none;}
+nav li{display: inline-block;
+	   margin-left: 70px;
+	   padding-top: 30px;
+	   font-family: "century gothic";
+	   font-size: 20px}
+nav ul li a{color: white;
+            text-decoration:none;
+            font-size: 30px;} 
+nav ul li a:hover{color: black;}
+
+
+#login{float: right;
+       margin-right: 70px;
+       text-decoration: bold;
+       padding-top: 30px;}
+#resframe{background:white;}
+
+
+
+.button{width: 100%;	
+        background-color: #005062; 
+        border: none;
+  		color: white;
+  		padding: 15px 32px;
+  		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		font-size: 20px;
+  		font-family: "Century Gothic";
+  		float: left;}
+.button:hover{background-color: #fc8019;
+              cursor: pointer;position: sticky;}
